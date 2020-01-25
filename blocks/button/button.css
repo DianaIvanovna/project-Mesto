@@ -1,0 +1,24 @@
+.button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  width: 150px;
+  height: 50px;
+  font-size: 30px;
+  display: block;
+  cursor: pointer;
+}
+
+.popup .button_active
+{
+  background-color: black;
+  border:none;
+  color: white;
+  opacity: 1;
+}
+
+.button:focus {
+  outline-color: greenyellow;
+}
+
+

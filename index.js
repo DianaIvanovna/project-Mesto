@@ -1,6 +1,7 @@
 (function () {
   const api = new Api({
-    baseUrl: 'http://95.216.175.5/cohort7',
+    //baseUrl: 'http://95.216.175.5/cohort7',
+    baseUrl: 'https://praktikum.tk/cohort7',
     headers: {
       authorization: '733ad404-17c3-485d-9074-456390901feb',
       'Content-Type': 'application/json'

@@ -1,4 +1,4 @@
-class FormValidation {
+export default class FormValidation {
   constructor(form) {
     this.form = form;
     this.setEventListeners(this.form);

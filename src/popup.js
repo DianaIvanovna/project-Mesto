@@ -1,5 +1,5 @@
 
-class Popup{
+export default class Popup{
   constructor(popup,popupOpen){
     this.popup=popup;
     this.popupClose=popup.querySelector('.popup__close');
@@ -35,8 +35,7 @@ class Popup{
 
 
 //3. Открытие попапа с картинкой
-
-(function () {
+  ( function () {
   const popupImageClosed = document.querySelector('.popup__close_image');
   
   const findLink = (event) => {

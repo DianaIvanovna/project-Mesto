@@ -1,3 +1,13 @@
+import Api from "./api.js";
+import Card from "./card.js";
+import CardList from "./cardList.js";
+import FormValidation from "./formValidation.js";
+import Popup from "./popup.js";
+import UserInfo from "./userInfo.js";
+
+import "./pages/index.css";
+
+
 (function () {
   const api = new Api({
     //baseUrl: 'http://95.216.175.5/cohort7',

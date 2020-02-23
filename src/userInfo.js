@@ -1,4 +1,4 @@
-class UserInfo{
+export default class UserInfo{
   constructor(divUserInfo,api){
     this.api=api;
     this.divUserInfo=divUserInfo;

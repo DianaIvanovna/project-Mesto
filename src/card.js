@@ -1,4 +1,4 @@
-class Card {
+export default class Card {
   constructor(cardData,api) {
     this.api=api;
     this.cardData=cardData;

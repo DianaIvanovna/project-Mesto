@@ -4,8 +4,7 @@ import CardList from "./cardList.js";
 import FormValidation from "./formValidation.js";
 import Popup from "./popup.js";
 import UserInfo from "./userInfo.js";
-
-//import "./index.css";
+import "./style.css";
 
 
 (function () {

@@ -1,0 +1,24 @@
+{
+  "name": "project-Mesto",
+  "version": "1.0.0",
+  "description": "Учебный проект «Место»\r =============================\r Данный проект - интерактивная страница, куда можно добавлять фотографии, удалять их и ставить лайки. Так же можно редактировать профиль \r страницы, реализована валидация форм.  В этом проекте вёрстку делали другие люди, я реализовала весь Java-Script код.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DianaIvanovna/project-Mesto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DianaIvanovna/project-Mesto/issues"
+  },
+  "homepage": "https://github.com/DianaIvanovna/project-Mesto#readme",
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "project-Mesto",
-  "homepage": "https://github.com/DianaIvanovna/project-Mesto",
+  "homepage": "https://github.com/DianaIvanovna/project-Mesto#readme",
   "version": "1.0.0",
   "description": "Учебный проект «Место»\r =============================\r Данный проект - интерактивная страница, куда можно добавлять фотографии, удалять их и ставить лайки. Так же можно редактировать профиль \r страницы, реализована валидация форм.  В этом проекте вёрстку делали другие люди, я реализовала весь Java-Script код.",
   "main": "index.js",
@@ -19,7 +19,6 @@
   "bugs": {
     "url": "https://github.com/DianaIvanovna/project-Mesto/issues"
   },
-  "homepage": "https://github.com/DianaIvanovna/project-Mesto#readme",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",

@@ -34,30 +34,3 @@ export default class Popup{
 }
 
 
-//3. Открытие попапа с картинкой
-  ( function () {
-  const popupImageClosed = document.querySelector('.popup__close_image');
-  
-  const findLink = (event) => {
-    const link = event.target.style.backgroundImage;
-    const link2 = link.substr(5, (link.length - 7));
-    return link2;
-  };
-  
-  const openAndClosePopupImage = () => document.querySelector('.popup_image').classList.toggle('popup_is-opened');
-  
-  
-  const openingPicture = (event) => {
-    const popupImageLink = document.querySelector('.popup__image');
-    const link = findLink(event);
-    popupImageLink.setAttribute('src', link);
-    openAndClosePopupImage();
-  };
-  
-  //3. Открытие попапа с картинкой
-  
-  function popupImage(event) { if (event.target.classList.contains('place-card__image')) openingPicture(event); }
-  
-  window.addEventListener('click', popupImage);
-  popupImageClosed.addEventListener('click', openAndClosePopupImage);
-})();

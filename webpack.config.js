@@ -7,7 +7,6 @@ const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 // подключаем плагин
 const isDev = process.env.NODE_ENV === 'development';
 // создаем переменную для development-сборки
-
 module.exports = {
   entry: { main: './src/index.js' },
   output: {

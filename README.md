@@ -13,7 +13,8 @@
 Как пользоваться
 =================
 - Посмотрите готовую страницу по адресу: https://dianaivanovna.github.io/project-Mesto/
-либо
+
+Или
 - Клонируйте или скачайте репозиторий: https://github.com/DianaIvanovna/project-Mesto
 - Установите пакеты webpack командой: npm i
 - Запустите виртуальный сервер командой: npm run dev

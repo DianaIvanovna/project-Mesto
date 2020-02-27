@@ -5,7 +5,7 @@
   "description": "Учебный проект «Место»\r =============================\r Данный проект - интерактивная страница, куда можно добавлять фотографии, удалять их и ставить лайки. Так же можно редактировать профиль \r страницы, реализована валидация форм.  В этом проекте вёрстку делали другие люди, я реализовала весь Java-Script код.",
   "main": "index.js",
   "scripts": {
-    "build": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",
+    "build": "rimraf dist && cross-env NODE_ENV=production  webpack --mode production",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch",
     "deploy": "cross-env NODE_ENV=production gh-pages -d dist"
  },
